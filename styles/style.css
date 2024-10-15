@@ -8,7 +8,15 @@
     color: white;
 }
 p {
-    font-size: 20px;
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+opacity: 0.7;
+
+
 }
 .btn {
     font-size: 20px;
@@ -16,6 +24,15 @@ p {
     border-radius: 8px;
     background-color: #0D1321;
     color: white;
+}
+.title {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
 }
 #hero {
     background-image: url('../assets/Hero-bg.png');
@@ -45,6 +62,7 @@ p {
     margin: 50px auto;
     /* text-align: center; */
     border-radius: 16px;
+    
 
 background: rgba(13, 19, 33, 0.02);
     display: flex;
@@ -52,10 +70,12 @@ background: rgba(13, 19, 33, 0.02);
     gap: 20px;
     align-items: center;
     padding-bottom: 30px;
+    
 }
 .why-web-development-description {
 margin: 40px 0px;
-text-align: center
+text-align: center;
+width: 946px;
 }
 .card {
     display: flex;
@@ -84,7 +104,13 @@ background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0)
 .card-title {
     font: 24px;
 }
-
+#my-inspiration {
+    width: 1140px;
+    margin: 50px auto;
+}
+.my-inspiration-content {
+    text-align: center;
+}
 #my-current-target{
 width: 1140PX;
 margin: 50px auto;
@@ -92,6 +118,18 @@ margin: 50px auto;
 .my-current-target-content {
     padding: 30px 0px;
     text-align: center;
+    
+}
+.iframe-holder {
+    text-align: center;
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+padding: 32px;
+
+}
+.iframe {
+   /* padding: 16px; */
 }
 #my-current-target .my-current-target-card-box {
     display: flex;
@@ -102,6 +140,7 @@ margin: 50px auto;
     padding: 40px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 20px;
 }
 .html {
@@ -186,6 +225,15 @@ padding: 20px;
     border-radius: 16px;
 
 background: rgba(13, 19, 33, 0.03);
+}
+.footer-description {
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
 }
 .footer-content {
     width: 1140px;

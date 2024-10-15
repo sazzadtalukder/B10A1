@@ -3,6 +3,10 @@
     padding: 0px;
     
 }
+.anchor  {
+    text-decoration: none;
+    color: white;
+}
 p {
     font-size: 20px;
 }
